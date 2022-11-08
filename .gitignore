@@ -138,3 +138,4 @@ publish.sh
 publish.ps1
 
 test/
+tests/
