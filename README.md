@@ -27,3 +27,7 @@ Step 3. Now you shall see the executable file under dist folder.
 Go to your medium home page. 
 
 Click your avatar -> Settings -> Security and apps -> Integration tokens
+
+## References
+
+This is a Python implementation of [Medium's official API documentation](https://github.com/Medium/medium-api-docs)
