@@ -41,6 +41,8 @@ content content
 
 ```
 
+Note that the title and tags in the yaml meta section will be used during the uploading session.
+
 ## How to get Medium's access token. 
 
 Go to your medium home page. 
