@@ -22,6 +22,25 @@ Step 3. Now you shall see the executable file under dist folder.
 ./dist/azmdpub 'markdown_file.md'
 ```
 
+The content in the `markdown_file.md` is like this:
+
+```
+---
+title: Test markdown file
+tags: ["tag1","tag2","tag3"]
+---
+
+# Test markdown file
+
+This is a test markdown file
+
+## Title2 
+
+content content 
+...
+
+```
+
 ## How to get Medium's access token. 
 
 Go to your medium home page. 
