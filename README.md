@@ -3,7 +3,7 @@
 A tool can publish markdown file to medium.com. Key features:
 
 * Automatically translate markdown file to html;
-* Upload images to medium server, the first tool in this planet provides this upload image feature.
+* Upload images to medium server, the first tool in this planet provides the upload image feature.
 
 ## How to use it
 
