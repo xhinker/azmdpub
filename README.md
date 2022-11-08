@@ -21,6 +21,6 @@ Step 3. Now you shall see the executable file under dist folder.
 
 ## How to get Medium's access token. 
 
-Go to you medium home page. 
+Go to your medium home page. 
 
 Click your avatar -> Settings -> Security and apps -> Integration tokens
