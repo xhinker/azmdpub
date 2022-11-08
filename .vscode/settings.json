@@ -1,0 +1,6 @@
+{
+    "files.autoSave":"afterDelay",
+    "editor.tabCompletion": "on",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.fontSize": 13
+}
