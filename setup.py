@@ -2,7 +2,7 @@ from setuptools import setup,find_packages
 
 setup(
     name='azmdpub',
-    version='1.221107.`',
+    version='1.221107.1',
     license='MIT License',
     author="Andrew Zhu",
     author_email='xhinker@hotmail.com',
