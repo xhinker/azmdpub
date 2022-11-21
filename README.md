@@ -15,8 +15,6 @@ Before moving on, Go to your medium home page to get the access token:
 
 >Click your avatar -> Settings -> Security and apps -> Integration tokens
 
-![](.publish_markdown_to_medium/2022-11-18-23-45-33.png)
-
 The token will be used for Post uploading. 
 
 ## My solution - azmdpub 
