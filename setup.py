@@ -14,5 +14,6 @@ setup(
         'markdown'
         ,'markdown-it-py'
         ,'mdit_py_plugins'
+        ,'mdit_py_plugins'
     ],
 )

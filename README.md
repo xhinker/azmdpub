@@ -1,10 +1,10 @@
 # azmdpub
 
-Writing and editing in Medium website is not only painful and also wasting of time on style wrangling. I am wondering if there is a way to write in Markdown file and then publish to Medium directly using Python. 
+Writing and editing on the Medium website is not only painful and also wasting of time on style wrangling. I am wondering if there is a way to write in the Markdown file and then publish to Medium directly using Python. 
 
-After some searches, no open source and free solution exists, not mention image uploading capability. So I decided to build one and open source it. This article is a summary of my solution. 
+After some searches, no open source and free solution exist, not to mention image uploading capability. So I decided to build one and open source it. This article is a summary of my solution. 
 
-To publish a Markdown file to Medium site, I have to solve the following four problems: 
+To publish a Markdown file to the Medium site, I have to solve the following four problems: 
 
 1. Translate Markdown to HTML string.
 2. Extract meta info like `title` and `tags` from Markdown file.
@@ -27,7 +27,13 @@ Here are steps to use it:
 
 Step 1. Pull the code to your local machine
 
-Step 2. Use `pyinstaller` to compile the code
+Step 2. Navigate to the git folder, and install dependant packages
+
+```
+pip install -r requirments.txt
+```
+
+Step 3. Use `pyinstaller` to compile the code
 
 Install `pyinstaller`:
 
@@ -38,10 +44,10 @@ pip install pyinstaller
 Compile python code:
 ```
 cd src/azmdpub
-pyinstaller -F 'azmdpub.py' -n 'azmdpub'
+pyinstaller -F 'azmdpub.py' -n 'azmdpub' -c
 ```
 
-Step 3. Now you shall see the executable file under `dist` folder, you can execute it like this:
+Step 4. Now you shall see the executable file under `dist` folder, you can execute it like this:
 
 ```
 ./dist/azmdpub 'markdown_file.md'
